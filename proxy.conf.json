@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://public.connectnow.org.uk/applicant-test",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}

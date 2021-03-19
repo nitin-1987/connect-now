@@ -1,0 +1,19 @@
+.top{
+  max-width: 600px;
+  margin: auto;
+  height: 80px;
+}
+p{
+  margin-bottom: -0.1em;
+}
+.panel{
+  background: #0e1a2b;
+  max-width: 600px;
+  margin: auto;
+  height: 80px;
+  margin-top: 100px;
+}
+input, select, input:focus, textarea, textarea:focus{
+  background-color: #182c47;
+  color: white;
+}
