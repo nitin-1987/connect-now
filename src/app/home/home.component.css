@@ -26,9 +26,8 @@
   background: #5692e8;
   text-decoration-color: white;
 }
-
-.panel{
-  background: #0e1a2b;
+.heading{
+  color:#ffffff;
 }
 input, select, input:focus{
   background-color: #182c47;

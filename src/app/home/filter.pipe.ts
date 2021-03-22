@@ -13,10 +13,8 @@ export class FilterPipe implements PipeTransform {
     searchText = searchText.toLowerCase();
 
     return items.filter(item => {
-
-      if (fieldName === 'orderBy'){
+      if (fieldName === 'orderBy') {
       }
-
       else if (item && item[fieldName]){
           return item[fieldName].toString().toLowerCase().includes(searchText);
         }
