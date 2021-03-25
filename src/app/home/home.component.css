@@ -6,7 +6,7 @@
 }
 .column2 {
   float: left;
-  width: 10%;
+  width: 5%;
 }
 .column3 {
   float: left;
@@ -30,8 +30,10 @@
   color:#ffffff;
 }
 input, select, input:focus{
-  background-color: #182c47;
+  background-color: #182c47 ;
+  border: #182c47;
   color: white;
+
 }
 input::placeholder {
   color: #96a3b5;
@@ -41,4 +43,7 @@ input::placeholder {
 }
 .panelInner{
   margin: 25px;
+}
+button{
+  background-color: #5692e8;
 }

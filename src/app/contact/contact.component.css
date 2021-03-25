@@ -16,4 +16,8 @@ p{
 input, select, input:focus, textarea, textarea:focus{
   background-color: #182c47;
   color: white;
+  border: #182c47;
+}
+button{
+  background-color: #5692e8;
 }
